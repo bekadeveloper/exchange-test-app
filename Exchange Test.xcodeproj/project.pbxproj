@@ -11,15 +11,21 @@
 		E9FADF5E269C714A0023EAE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FADF5D269C714A0023EAE2 /* ContentView.swift */; };
 		E9FADF60269C714A0023EAE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FADF5F269C714A0023EAE2 /* Assets.xcassets */; };
 		E9FADF63269C714A0023EAE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9FADF62269C714A0023EAE2 /* Preview Assets.xcassets */; };
+		E9FADF6B269C72F10023EAE2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FADF6A269C72F10023EAE2 /* Model.swift */; };
+		E9FADF6D269C79830023EAE2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FADF6C269C79830023EAE2 /* CardView.swift */; };
+		E9FADF6F269C82640023EAE2 /* ExchangeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FADF6E269C82640023EAE2 /* ExchangeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E9FADF58269C714A0023EAE2 /* Exchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FADF58269C714A0023EAE2 /* Exchange Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Exchange Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9FADF5B269C714A0023EAE2 /* ExchangeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeApp.swift; sourceTree = "<group>"; };
 		E9FADF5D269C714A0023EAE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E9FADF5F269C714A0023EAE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9FADF62269C714A0023EAE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9FADF64269C714A0023EAE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9FADF6A269C72F10023EAE2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		E9FADF6C269C79830023EAE2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E9FADF6E269C82640023EAE2 /* ExchangeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +50,7 @@
 		E9FADF59269C714A0023EAE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E9FADF58269C714A0023EAE2 /* Exchange.app */,
+				E9FADF58269C714A0023EAE2 /* Exchange Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +60,9 @@
 			children = (
 				E9FADF5B269C714A0023EAE2 /* ExchangeApp.swift */,
 				E9FADF5D269C714A0023EAE2 /* ContentView.swift */,
+				E9FADF6C269C79830023EAE2 /* CardView.swift */,
+				E9FADF6A269C72F10023EAE2 /* Model.swift */,
+				E9FADF6E269C82640023EAE2 /* ExchangeData.swift */,
 				E9FADF5F269C714A0023EAE2 /* Assets.xcassets */,
 				E9FADF64269C714A0023EAE2 /* Info.plist */,
 				E9FADF61269C714A0023EAE2 /* Preview Content */,
@@ -72,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E9FADF57269C714A0023EAE2 /* Exchange */ = {
+		E9FADF57269C714A0023EAE2 /* Exchange Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E9FADF67269C714A0023EAE2 /* Build configuration list for PBXNativeTarget "Exchange" */;
+			buildConfigurationList = E9FADF67269C714A0023EAE2 /* Build configuration list for PBXNativeTarget "Exchange Test" */;
 			buildPhases = (
 				E9FADF54269C714A0023EAE2 /* Sources */,
 				E9FADF55269C714A0023EAE2 /* Frameworks */,
@@ -84,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = Exchange;
+			name = "Exchange Test";
 			productName = Exchange;
-			productReference = E9FADF58269C714A0023EAE2 /* Exchange.app */;
+			productReference = E9FADF58269C714A0023EAE2 /* Exchange Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +112,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E9FADF53269C714A0023EAE2 /* Build configuration list for PBXProject "Exchange" */;
+			buildConfigurationList = E9FADF53269C714A0023EAE2 /* Build configuration list for PBXProject "Exchange Test" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -116,7 +125,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E9FADF57269C714A0023EAE2 /* Exchange */,
+				E9FADF57269C714A0023EAE2 /* Exchange Test */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FADF6B269C72F10023EAE2 /* Model.swift in Sources */,
 				E9FADF5E269C714A0023EAE2 /* ContentView.swift in Sources */,
+				E9FADF6D269C79830023EAE2 /* CardView.swift in Sources */,
 				E9FADF5C269C714A0023EAE2 /* ExchangeApp.swift in Sources */,
+				E9FADF6F269C82640023EAE2 /* ExchangeData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E9FADF53269C714A0023EAE2 /* Build configuration list for PBXProject "Exchange" */ = {
+		E9FADF53269C714A0023EAE2 /* Build configuration list for PBXProject "Exchange Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9FADF65269C714A0023EAE2 /* Debug */,
@@ -318,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E9FADF67269C714A0023EAE2 /* Build configuration list for PBXNativeTarget "Exchange" */ = {
+		E9FADF67269C714A0023EAE2 /* Build configuration list for PBXNativeTarget "Exchange Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E9FADF68269C714A0023EAE2 /* Debug */,

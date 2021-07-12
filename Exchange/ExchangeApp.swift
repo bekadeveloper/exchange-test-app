@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct ExchangeApp: App {
+    let data = ExchangeData()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(exchangeData: data)
         }
     }
 }

@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var exchangeData: ExchangeData
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            ForEach(exchangeData.rates, id: \.currencyCode) { item in
+                CardView(item: item)
+            }
+        }
+        .onAppear { exchangeData.getRates() }
+        .tabViewStyle(PageTabViewStyle())
+        .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}
